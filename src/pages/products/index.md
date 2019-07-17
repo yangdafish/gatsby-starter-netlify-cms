@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-title: The Census
+title: FAQ
 image: /img/jumbotron.jpg
 heading: Great coffee with a conscience
 description: >-
@@ -70,32 +70,35 @@ testimonials:
       stance on empowering farmers and transparency.
 full_image: /img/products-full-width.jpg
 pricing:
-  heading: Monthly subscriptions
+  heading: How Do I Take The Census?
   description: >-
-    We make it easy to make great coffee a part of your life. Choose one of our
-    monthly subscription plans to receive great coffee at your doorstep each
-    month. Contact us about more details and payment info.
+    There's actually multiple ways for a person to take the Census! So if you
+    don't want a helpful stranger showing up at your door, take 5 minutes out of
+    your day and take one of the following options on April 1st, 2020. Yes,
+    seriously, that's the date.
   plans:
-    - description: Perfect for the drinker who likes to enjoy 1-2 cups per day.
+    - description: >-
+        You get the form in your mail, you fill out the form, you mail the form
+        back
       items:
-        - 3 lbs of coffee per month
-        - Green or roasted beans"
-        - One or two varieties of beans"
-      plan: Small
-      price: '50'
-    - description: 'Great for avid drinkers, java-loving couples and bigger crowds'
+        - Old reliable
+        - You might actually have to leave your house
+        - Can do mostly on couch
+      plan: Mail
+      price: '0'
+    - description: Call toll-free 1-800-354-7271
       items:
-        - 6 lbs of coffee per month
-        - Green or roasted beans
-        - Up to 4 different varieties of beans
-      plan: Big
-      price: '80'
-    - description: Want a few tiny batches from different varieties? Try our custom plan
+        - Newer
+        - Can do entirely on couch
+        - Have to actually talk to someone
+      plan: Phone
+      price: '1'
+    - description: 'Follow the instructions at https://respond.census.gov/acs/#respond'
       items:
-        - Whatever you need
-        - Green or roasted beans
-        - Unlimited varieties
-      plan: Custom
-      price: '??'
+        - Newest
+        - Could be a long wait
+        - Can do in bed
+      plan: Online
+      price: '2'
 ---
 
