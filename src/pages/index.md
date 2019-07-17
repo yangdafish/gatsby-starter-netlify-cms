@@ -1,8 +1,8 @@
 ---
 templateKey: index-page
-title: Find All the Important Cencus Facts
+title: Find All the Important Census Facts
 image: /img/home-jumbotron.jpg
-heading: There's A Million Ways More
+heading: What You Should Know
 subheading: It's really really important
 mainpitch:
   title: Why The Census
