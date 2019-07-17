@@ -42,14 +42,19 @@ export const ProductPageTemplate = ({
     <section className="section section--gradient">
       <div className="container">
         <div className="section">
-          <div className="columns">
+          {/* <div className="columns">
             <div className="column is-7 is-offset-1">
               <h3 className="has-text-weight-semibold is-size-2">{heading}</h3>
               <p>{description}</p>
             </div>
-          </div>
+          </div> */}
           <div className="columns">
             <div className="column is-10 is-offset-1">
+              <h2 className="has-text-weight-semibold is-size-2">
+                {pricing.heading}
+              </h2>
+              <p className="is-size-5">{pricing.description}</p>
+              <Pricing data={pricing.plans} />
               <Features gridItems={intro.blurbs} />
               <div className="columns">
                 <div className="column is-7">
@@ -91,11 +96,7 @@ export const ProductPageTemplate = ({
                   })`,
                 }}
               />
-              <h2 className="has-text-weight-semibold is-size-2">
-                {pricing.heading}
-              </h2>
-              <p className="is-size-5">{pricing.description}</p>
-              <Pricing data={pricing.plans} />
+
             </div>
           </div>
         </div>

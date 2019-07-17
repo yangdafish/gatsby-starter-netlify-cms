@@ -9,22 +9,26 @@ export default class Index extends React.Component {
         <section className="section">
           <div className="container">
             <div className="content">
-              <h1>Hi people</h1>
+              <h1>Immediate Circle</h1>
               <p>
-                This is an example site integrating Netlify’s form handling with
-                Gatsby
+                Make sure you and your family fill out the census
               </p>
               <ul>
                 <li>
-                  <Link to="/contact">Basic contact form</Link>
+                  <Link to="/faqs">FAQs Contain Instructions</Link>
                 </li>
                 <li>
                   <Link to="/contact/file-upload/">Form with file upload</Link>
                 </li>
               </ul>
 
-              <h2>Troubleshooting</h2>
-              <h3>Forms stop working after upgrading to Gatsby v2</h3>
+              <h2>Information Sharing</h2>
+              <p>
+                Make sure people you know have a good understanding of what the census is, and what it is not.
+                If people have more questions, point them to this site, or the official government census website.
+              </p>
+              <Link to="https://www.census.gov">Official Census Site </Link>
+              {/* <h3>Forms stop working after upgrading to Gatsby v2</h3>
               <p>
                 This can be caused by the offline-plugin.{' '}
                 <a href="https://github.com/gatsbyjs/gatsby/issues/7997#issuecomment-419749232">
@@ -40,7 +44,7 @@ export default class Index extends React.Component {
                   imorente/gatsby-netlify-form-example
                 </a>{' '}
                 for a working example.
-              </p>
+              </p> */}
             </div>
           </div>
         </section>

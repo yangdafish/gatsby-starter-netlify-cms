@@ -8,6 +8,37 @@ description: >-
   java’s origin and support the farmers that grew it. We take coffee production,
   roasting and brewing seriously and we’re glad to pass that knowledge to
   anyone.
+pricing:
+  heading: How Do I Take The Census?
+  description: >-
+    There's actually multiple ways for a person to take the Census! So if you
+    don't want a helpful stranger showing up at your door, take 5 minutes out of
+    your day and take one of the following options on April 1st, 2020. Yes,
+    seriously, that's the date.
+  plans:
+    - description: >-
+        You get the form in your mail, you fill out the form, you mail the form
+        back
+      items:
+        - Old reliable
+        - You might actually have to leave your house
+        - Can do mostly on couch
+      plan: Mail
+      price: 'M'
+    - description: Call toll-free 1-800-354-7271
+      items:
+        - Newer
+        - Can do entirely on couch
+        - Have to actually talk to someone
+      plan: Phone
+      price: 'P'
+    - description: 'Follow the instructions at https://respond.census.gov/acs/#respond'
+      items:
+        - Newest
+        - Could be a long wait
+        - Can do in bed
+      plan: Online
+      price: 'O'
 intro:
   blurbs:
     - image: /img/coffee.png
@@ -69,36 +100,5 @@ testimonials:
       Kaldi is the place to go if you want the best quality coffee. I love their
       stance on empowering farmers and transparency.
 full_image: /img/products-full-width.jpg
-pricing:
-  heading: How Do I Take The Census?
-  description: >-
-    There's actually multiple ways for a person to take the Census! So if you
-    don't want a helpful stranger showing up at your door, take 5 minutes out of
-    your day and take one of the following options on April 1st, 2020. Yes,
-    seriously, that's the date.
-  plans:
-    - description: >-
-        You get the form in your mail, you fill out the form, you mail the form
-        back
-      items:
-        - Old reliable
-        - You might actually have to leave your house
-        - Can do mostly on couch
-      plan: Mail
-      price: '0'
-    - description: Call toll-free 1-800-354-7271
-      items:
-        - Newer
-        - Can do entirely on couch
-        - Have to actually talk to someone
-      plan: Phone
-      price: '1'
-    - description: 'Follow the instructions at https://respond.census.gov/acs/#respond'
-      items:
-        - Newest
-        - Could be a long wait
-        - Can do in bed
-      plan: Online
-      price: '2'
 ---
 
